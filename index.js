@@ -8,5 +8,10 @@ router.get('/', function(req, res){
 })
 
 app.use('/', router);
-app.listen(process.env.port || 3003);
 
+const ipAddress = '192.168.1.4'; //Endereço IP da máquina
+const port = 3003;
+
+app.listen(port, ipAddress, () => {
+    console.log(`Servidor rodando em http://${ipAddress}:${port}`);
+});
