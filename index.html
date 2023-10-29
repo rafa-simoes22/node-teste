@@ -5,7 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Já Bebeu Água Hoje?</title>
 </head>
+<style>
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid;
+        margin-top: 5%;
+    }
+    .resultados {
+        border: solid;
+    }
+</style>
 <body>
-    
+    <div class="conteudo">
+        <p>Quantos Copos de 200ml você já bebeu?</p>
+        <form>
+            <input type="number" id="numero" min="1">
+        </form>
+        <br>
+        <button>Registrar</button>
+    </div>
+    <div class="resultados">
+
+    </div>
 </body>
 </html>
