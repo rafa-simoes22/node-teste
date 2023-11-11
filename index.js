@@ -9,7 +9,7 @@ router.get('/', function(req, res){
 
 app.use('/', router);
 
-const ipAddress = '192.168.1.4'; //Endereço IP da máquina
+const ipAddress = '192.168.1.6'; //Endereço IP da máquina
 const port = 3003;
 
 app.listen(port, ipAddress, () => {

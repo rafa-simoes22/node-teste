@@ -2,50 +2,8 @@
 <html>
 <head>
     <title>Login e Cadastro</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        #cadastro-form {
-            display: none;
-        }
-        .form-container {
-            max-width: 300px;
-            margin: 0 auto;
-            text-align: center;
-            justify-content: center;
-        }
-    </style>
 </head>
 <body>
-    <div class="form-container">
-        <form id="login-form">
-            <h2>Login</h2>
-            <input type="text" id="login-nome" placeholder="Nome" required>
-            <input type="password" id="login-senha" placeholder="Senha" required>
-            <button id="login-button">Login</button>
-            <p>Ainda não tem uma conta? <a id="cadastro-link" href="#">Cadastro</a></p>
-        </form>
-        <form id="cadastro-form">
-            <h2>Cadastro</h2>
-            <input type="text" id="cadastro-nome" placeholder="Nome" required>
-            <input type="password" id="cadastro-senha" placeholder="Senha" required>
-            <button id="cadastro-button">Cadastrar</button>
-            <p>Já tem uma conta? <a id="login-link" href="#">Login</a></p>
-        </form>
-    </div>
-
-    <script>
-        document.getElementById('cadastro-link').addEventListener('click', function() {
-            document.getElementById('login-form').style.display = 'none';
-            document.getElementById('cadastro-form').style.display = 'block';
-        });
-
-        document.getElementById('login-link').addEventListener('click', function() {
-            document.getElementById('login-form').style.display = 'block';
-            document.getElementById('cadastro-form').style.display = 'none';
-        });
-    
-    </script>
+    <h1>Teste</h1>
 </body>
 </html>
